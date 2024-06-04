@@ -1,0 +1,1000 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.line {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    background-color: #6E2A36;
+
+}
+
+
+.line h1 {
+
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #F2654A;
+
+}
+
+.line h1::selection {
+    color: white;
+
+}
+
+/* //////////////////////////////////////////////////////// 2-ci HEADER ////////////////////////////////////////////////////////////////////// */
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F2E4;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+.box_16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+
+    justify-content: left;
+}
+
+.box_16 h2 {
+
+    font-size: 17px;
+    padding-left: 5%;
+    font-family: "Nunito Sans", sans-serif;
+
+    color: #F2654A;
+}
+
+.box_16 h1:hover {
+
+
+    color: #F2654A;
+
+}
+
+
+
+
+.box_16 h1 {
+
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 5%;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    color: #6E2A36;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+
+.box_17 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 11vh;
+
+    position: relative;
+
+}
+
+.fa-shopping-bag {
+
+    padding: 2px;
+
+
+
+}
+
+.fa-user {
+
+    padding: 5px;
+
+
+}
+
+
+
+.box_17 h1 {
+
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+
+.box_17 .fa-heart {
+
+    color: black;
+    padding: 20px;
+
+}
+
+.box_18 {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 18px;
+    right: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #75973A;
+}
+
+.box_18 h3 {
+
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.box_19 {
+    justify-content: center;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+
+    border-radius: 50px;
+    position: absolute;
+    right: 120px;
+    top: 18px;
+    background-color: #75973A;
+}
+
+.box_19 h3 {
+
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+
+}
+
+
+/* //////////////////////////////////////////////////  TITLE  //////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////  TITLE /////////////////////////////////////////////////////// */
+.text {
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+
+.div_1 {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #F0CFAE;
+    padding-left: 90px;
+
+}
+
+
+.div_1 h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 55px;
+    padding-top: 1%;
+    font-weight: 800;
+    color: #F2654A;
+}
+
+
+
+
+.btn {
+
+    width: 220px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(117, 151, 58);
+    color: rgb(241, 255, 186);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.img {
+
+    padding-right: 2%;
+
+
+
+}
+
+.div_1 h2 {
+    color: #6E2A36;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 12px;
+
+}
+
+
+
+
+.div_2 {
+
+    display: flex;
+    width: 50%;
+    height: auto;
+    background-image: url('https://themes.muffingroup.com/be/dietshop/wp-content/uploads/2021/09/dietshop-slider-pic1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(142, 183, 71);
+
+}
+
+/* ///////////////////////////////////////////////////////////       1-ci KUTU        /////////////////////////////////////////////////////////// */
+
+.about_us {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9F2E4;
+}
+
+
+.boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    background-color: #F1E6D6;
+
+}
+
+.text_1 {
+
+    padding-right: 68%;
+    margin-bottom: 15px;
+    color: #6E2A36;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+
+
+
+
+.text_2 {
+    padding-right: 40%;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    padding-top: 1%;
+    font-weight: 800;
+    color: #6E2A36;
+    margin-bottom: 10px;
+}
+
+.text_3 {
+    color: #75973A;
+    padding-right: 55%;
+}
+
+
+
+.text_4 {
+
+    padding-right: 50%;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    padding-top: 1%;
+    font-weight: 800;
+    color: #6E2A36;
+    margin-bottom: 10px;
+}
+
+
+
+.text_5 {
+    color: #75973A;
+    padding-right: 55%;
+
+
+
+
+
+}
+
+
+.text_6 {
+
+
+
+    padding-right: 50%;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    padding-top: 1%;
+    font-weight: 800;
+    color: #6E2A36;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+.text_7 {
+
+    color: #75973A;
+    padding-right: 55%;
+
+
+
+}
+
+.box button {
+    position: absolute;
+    top: 15px;
+    left: 1%;
+    background-color: #75973A;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+/* //////////////////////////////////////////////////////////////////////  2-ci KUTU   //////////////////////////////////////////////////  */
+/* //////////////////////////////////////////////////////////////////////  2-ci KUTU   //////////////////////////////////////////////////   */
+.soft {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #F9F2E4;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test {
+
+    padding-left: 42%;
+    color: #6E2A36;
+}
+
+.btn_3 {
+
+
+    cursor: pointer;
+
+
+}
+
+.test_2 {
+
+    color: #6E2A36;
+
+
+
+}
+
+
+.load {
+
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    padding-top: 6%;
+    font-size: 35px;
+    color: #F2654A;
+}
+
+
+
+.boxes_2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 8%;
+
+}
+
+
+.box_1 {
+
+    width: 400px;
+    height: 400px;
+
+
+
+
+
+}
+
+
+.box_1 h1 {
+    padding-top: 20%;
+    margin-bottom: 25px;
+    color: #6E2A36;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+
+}
+
+.box_1 p {
+    font-size: 18px;
+    color: #6E2A36;
+    padding-right: 15%;
+}
+
+span {
+
+    color: #F2654A;
+
+
+
+}
+
+.box_2 {
+
+
+
+    width: 400px;
+    height: 400px;
+
+    text-align: center;
+
+}
+
+
+.foto {
+
+    padding-right: 50%;
+
+
+}
+
+
+.box_2 h1 {
+
+
+
+    text-align: left;
+    padding-top: 20%;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: #6E2A36;
+    margin-bottom: 15px;
+}
+
+.box_2 p {
+    text-align: left;
+    font-size: 17px;
+    color: #6E2A36;
+
+}
+
+/* ////////////////////////////////////////////////////////////////// 3-cu KUTU //////////////////////////////////////////////////////////////////*/
+
+.Healt {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #F9F2E4;
+}
+
+.boxes_3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+
+
+.box_3 {
+    width: 600px;
+    height: 600px;
+    background-image: url('https://themes.muffingroup.com/be/dietshop/wp-content/uploads/2021/09/dietshop-home-pic4.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+
+    border-bottom-left-radius: 20px;
+}
+
+.box_4 {
+    width: 600px;
+    height: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #F2634D;
+}
+
+.box_5 {
+
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box_5 h1 {
+    padding-left: 5%;
+    padding-top: 20%;
+    font-size: 35px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    color: #FFFBF3;
+    margin-bottom: 15px;
+
+}
+
+.ppp {
+
+    padding-left: 5%;
+    color: #FFFBF3;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+
+.picture {
+
+    padding-left: 5%;
+    margin-top: 15px;
+
+}
+
+.btn_3 {
+
+    width: 150px;
+    border: none;
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #6E2A36;
+    color: #F6D4E8;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+/* /////////////////////////////////////////////////////////////// 4-cu KUTU  /////////////////////////////////////////////////////////////////// */
+
+.read {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #F6E9D6;
+    flex-direction: column;
+}
+
+.read h1 {
+
+    font-size: 35px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: #6E2A36;
+    padding-top: 15px;
+}
+
+
+.boxes_4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    position: relative;
+    background-color: #F6E9D6;
+}
+
+.box_11 {
+    width: 400px;
+    height: 400px;
+    background-color: #FFFBF4;
+    margin-left: 15px;
+
+}
+
+.box_11 img {
+
+    object-fit: cover;
+
+
+}
+
+
+
+
+.boxes_4 p {
+    padding-left: 12%;
+    padding-top: 10%;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: #6E2A36;
+}
+
+
+
+
+.btn_5 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    border-radius: 50px;
+    border: none;
+    background-color: #6E2A36;
+    color: #7D6687;
+    cursor: pointer;
+}
+
+.fa-heart {
+
+    color: white;
+
+}
+
+.btn_6 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 24%;
+    left: 54%;
+    border-radius: 50px;
+    border: none;
+    background-color: #6E2A36;
+    color: #7D6687;
+    cursor: pointer;
+
+
+
+}
+
+
+.btn_7 {
+
+
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+    border-radius: 50px;
+    border: none;
+    background-color: #6E2A36;
+    color: #7D6687;
+    cursor: pointer;
+
+
+
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// ////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.death {
+
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6E9D6;
+
+}
+
+
+.box_26 {
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px;
+
+}
+
+
+
+.box_27 {
+
+    width: 30%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.box_27 h1 {
+
+    font-size: 15px;
+    padding-left: 20px;
+    color: #6E2A36;
+}
+
+
+
+.box_28 {
+
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+
+}
+
+
+
+
+.box_29 {
+
+
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+
+
+
+
+}
+
+
+.box_30 {
+
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #F6E9D6;
+
+}
+
+.box_32 {
+
+    width: 900px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.box_32 h1 {
+
+    color: #F2654A;
+
+
+}
+
+.box_32 span {
+
+    color: #6E2A36;
+
+
+}
+
+
+footer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F3D8BB;
+}
+
+.box_35 {
+
+    width: 600px;
+    height: 600px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.box_35 h1 {
+
+    color: #6E2A36;
+    margin-bottom: 15px;
+
+
+
+}
+
+.texttt {
+
+    color: #6E2A36;
+    margin-bottom: 10px;
+
+
+}
+
+
+.box_35 p {
+
+    color: #6E2A36;
+    margin-bottom: 20px;
+
+
+
+}
+
+.box_35 h2 {
+
+    color: #F28772;
+    margin-bottom: 10px;
+}
+
+.box_35 h3 {
+
+    color: #F28772;
+    margin-bottom: 40px;
+
+}
+
+.box_35 h5 {
+    color: #6E2A36;
+    font-size: 18px;
+
+}
+
+
+
+li {
+
+    color: #F2654A;
+
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+input {
+
+    border-radius: 50px;
+    border-color: #e6b482;
+    background-color: #FFFFFF;
+    transition: all .3s ease;
+}
+
+input:hover {
+
+    background-color: #F4EDDB;
+
+
+}
+
+
+
+
+
+
+.div_40 {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.btn_20 {
+
+    margin-left: 20px;
+    border-radius: 50px;
+    width: 260px;
+    height: 39px;
+    background-color: rgb(117, 151, 58);
+    color: rgb(241, 255, 186);
+    border: none;
+    transition: all .3s ease;
+}
+
+
+.btn_20:hover {
+
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(142, 183, 71);
+
+}
+
+.testttt {
+
+    margin-top: 120px;
+    color: #6E2A36;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.colt {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+}
